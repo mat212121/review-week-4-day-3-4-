@@ -80,26 +80,26 @@
 # print(text2[8::3])
 # # Reverses the position of all the characters in the following sentence and displays the result on the screen.
 
-# text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-# print(text3[::-1])
-# # Extract the first word of the following sentence using slicing, and display it on the screen:
-# sentence = "Controlling complexity is the essence of programming"
-# all_words = sentence.split()
-# print(all_words)
-# print("first word is : " = all_words[1])
+# # text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
+# # print(text3[::-1])
+# # # Extract the first word of the following sentence using slicing, and display it on the screen:
+# # sentence = "Controlling complexity is the essence of programming"
+# # all_words = sentence.split()
+# # print(all_words)
+# # print("first word is : " = all_words[1])
 
-# create a text input that asks for choice of food
-foodChoice = input("choice of food?")
-#create an empty list variable called food
-food = []
-# add 3 items from the user into the empty list
-food.append(foodChoice)
-food.append(foodChoice)
-food.append(foodChoice)
+# # create a text input that asks for choice of food
+# foodChoice = input("choice of food?")
+# #create an empty list variable called food
+# food = []
+# # add 3 items from the user into the empty list
+# food.append(foodChoice)
+# food.append(foodChoice)
+# food.append(foodChoice)
 
-#print out the menu list
-print(food)
-##############################################################################################################
+# #print out the menu list
+# print(food)
+# ##############################################################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
 #you define a tuple with () instead of [] like you would in lists
@@ -107,10 +107,11 @@ print(food)
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+# print(coordinates[0])
 # lets make this a multidimensional array
 coordindates2 = [(4, 5), (6, 7), (80, 34)]
 #get the second element of the second item in coordinates2
-
+print(coordindates2[1][1])
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
 # get the second item in the tuple1 above
