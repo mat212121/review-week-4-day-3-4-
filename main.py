@@ -83,7 +83,10 @@ print(text2[8::3])
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
 print(text3[::-1])
 # Extract the first word of the following sentence using slicing, and display it on the screen:
-"Controlling complexity is the essence of programming"
+sentence = "Controlling complexity is the essence of programming"
+all_words = sentence.split()
+print(all_words)
+print("first word is : " = all_words[1])
 
 # create a text input that asks for choice of food
 #create an empty list variable called food
